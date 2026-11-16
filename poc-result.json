@@ -1,0 +1,13 @@
+{
+  "poc": "Bull SDK open() — buyerReceive not verified, tokens diverted to attacker",
+  "sdk": "bull-sdk.mjs (verbatim copy of https://www.bull.family/sdk/bull.mjs)",
+  "escrow": "BullEscrow.sol (verbatim source, verified on Sourcify chain 4663)",
+  "dealId": "1",
+  "onChainBuyerReceive": "0x50479507f8a360Eaaa394352e2A871b8e6433C06",
+  "attackerAddress": "0x50479507f8a360Eaaa394352e2A871b8e6433C06",
+  "buyerReceiveIsAttacker": true,
+  "victimTokenBalance": "0",
+  "attackerTokenBalance": "1000",
+  "victimPaidEth": "0.5",
+  "exploited": true
+}
